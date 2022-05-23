@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Koulen", cursive;
+  height: 100%;
+  margin: 16px;
+  background-image: url(./img/mountain1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.timezone {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+.timezone > .timezone__location {
+  font-size: 2.5rem;
+  background-color: rgba(208, 189, 189, 0.15);
+  color: white;
+}
+
+.timezone > .timezone__display {
+  font-size: 2rem;
+}
