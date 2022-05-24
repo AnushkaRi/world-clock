@@ -43,4 +43,8 @@ body {
 
 .timezone > .timezone__display {
   font-size: 2rem;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+  padding-left: 65px;
 }
