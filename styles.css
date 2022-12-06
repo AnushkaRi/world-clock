@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600;700&display=swap");
 
 html {
   font-size: 16px;
@@ -7,7 +9,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: "Koulen", cursive;
+  font-family: "Mitr", sans-serif;
   height: 100%;
   margin: 16px;
   background-image: url(./img/mountain1.jpg);
@@ -23,28 +25,55 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  font-size: 2.2rem;
+h1 {
+  box-sizing: border-box;
+  font-size: 3.5rem;
   text-align: center;
+  margin: 16px auto;
 }
 
 .timezone {
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .timezone > .timezone__location {
-  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
   background-color: rgba(208, 189, 189, 0.15);
+  margin: 0 auto;
+  padding: 0 20px;
   color: white;
 }
 
 .timezone > .timezone__display {
-  font-size: 2rem;
   display: inline-block;
-  width: 300px;
-  text-align: left;
-  padding-left: 65px;
+  font-family: "Azeret Mono", monospace;
+  font-size: 2.1rem;
+  letter-spacing: -1px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 1.7rem;
+    margin: 8px auto;
+  }
+
+  .timezone > .timezone__location {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .timezone > .timezone__display {
+    font-size: 1.3rem;
+  }
 }

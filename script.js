@@ -31,7 +31,7 @@ const locations = [
   },
 
   {
-    mountain: "Mount Kosciuszko- Australia",
+    mountain: "Mount Kosciuszko - Australia",
     timeZone: "Australia/Canberra",
   },
 ];
