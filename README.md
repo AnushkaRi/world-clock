@@ -1,4 +1,4 @@
-# world-clock
+# World Clock of Highest Mountains
 
 A responsive World Clock of world’s highest mountains by continents built with HTML, CSS & JS.
 
